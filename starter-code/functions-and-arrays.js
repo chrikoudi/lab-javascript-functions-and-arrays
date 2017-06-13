@@ -158,7 +158,8 @@ console.log(hasDog);
 
 // Counting Repetion
 function howManyTimes (words, word) {
-
+   var howMany = countInArray(words, word);
+   return howMany;
 }
 
 var words = [
